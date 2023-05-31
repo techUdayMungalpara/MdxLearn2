@@ -1,10 +1,8 @@
-import Das from "./data/hello.mdx";
-import { MDXProvider } from "@mdx-js/react";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Das />
+      <Link href={`/data`}>Go</Link>
     </>
   );
 }
